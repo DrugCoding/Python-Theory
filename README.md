@@ -2,9 +2,11 @@
 
 - [문자열(string) ](#문자열string)
 
+- [리스트(list) ](#리스트list)
+- [딕셔너리(dictionary)](#딕셔너리dictionary)
 
-
-
+- [반복문(while) ](반복문while)
+- [반복문(for) ](반복문for)
 
 
 
@@ -53,4 +55,22 @@
   .replace('문자1', '문자2', 1) # '문자1'을 '문자2'로 제일 처음 한 번만 바꾼다
   ```
 
-  
+
+# 리스트(list)
+
+
+
+
+
+# 딕셔너리(dictionary)
+
+
+
+# 반복문(while)
+
+
+
+
+
+# 반복문(for)
+

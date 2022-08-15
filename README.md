@@ -143,6 +143,17 @@
   print(dict_re) # {3: 'a', 2: 'b', 1: 'e'}
   ```
 
+
+- 딕셔너리 key, velue 리스트로 받아오기
+
+  ```python
+  dic = {'a': 3, 'b': 2, 'c': 1, 'd': 1, 'e': 1}
+  
+  # key, value 값 리스트로 가져오기
+  print(list(dic.keys())) # ['a', 'b', 'c', 'd', 'e']
+  print(list(dic.values())) # [3, 2, 1, 1, 1]
+  ```
+
   
 
 # 반복문(while)

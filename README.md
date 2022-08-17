@@ -64,7 +64,8 @@
 - 리스트를 정렬하는 방법
 
   - 오름차순 정렬 - 리스트.sort() / sorted(리스트)
-
+  - 알파벳 대소문자 구분 없이 사전 순으로 정렬 - ***리스트.sort(key=str.lower)***
+  
   ```python
   num = [3, 1, 5, 0, 4, 2]
   # 1번
@@ -78,10 +79,14 @@
   print(num_) # [0, 1, 2, 3, 4, 5]
   
   # sort(),sorted() 차이점 : sort는 원래 리스트를 바꾼다 sorted는 원래 리스트를 보존한다
+  
+  word = ['Cat', 'fat', 'bAt']
+  word.sort(key=str.lower)
+  print(word) # ['bAt', 'Cat', 'fat'] # 사전 순 정렬
   ```
-
+  
   - 내림차순 정렬(거꾸로) - 리스트.reverse() / list(reversed(리스트)) / 리스트[::-1] / 리스트.sort(reverse=True)
-
+  
   ```python
   num = [3, 1, 5, 0, 4, 2]
   # 1번

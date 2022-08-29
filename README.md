@@ -115,7 +115,23 @@
 
 - 이중 리스트 해제 - 변수 = sum(리스트,[])
 
+  ```python
+  num = [[3, 1, 5, 0, 4, 2]]
+  
+  print(sum(num,[])) # [3, 1, 5, 0, 4, 2]
+  ```
 
+- 리스트가 비었는지 확인 방법
+
+  ```python
+  num = []
+  #1
+  if len(num) == 0: # num의 갯수가 0 이라면
+  #2
+  if not num: # num 이 False (0) 면
+  ```
+
+  
 
 # 딕셔너리(dictionary)
 

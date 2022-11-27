@@ -85,7 +85,7 @@
   print(word) # ['bAt', 'Cat', 'fat'] # 사전 순 정렬
   ```
   
-  - 내림차순 정렬(거꾸로) - 리스트.reverse() / list(reversed(리스트)) / 리스트[::-1] / 리스트.sort(reverse=True)
+  - 내림차순 정렬(거꾸로) - 리스트.reverse() / reversed(리스트) / 리스트[::-1] / 리스트.sort(reverse=True)
   
   ```python
   num = [3, 1, 5, 0, 4, 2]
